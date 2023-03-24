@@ -22,7 +22,7 @@ La seconda demo mostra come utilizzare Docker Compose per creare un'infrastruttu
 * docker-compose.yml - il file di definizione dell'infrastruttura Docker
 * index.js - il codice del server Express
 * package.json - il file di dipendenze di Node.js
-* 
+
 Per eseguire la demo, seguire questi passaggi:
 
 * Installare Docker e Docker Compose sul proprio computer
