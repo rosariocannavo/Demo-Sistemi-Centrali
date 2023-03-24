@@ -13,8 +13,8 @@ Per eseguire la demo, seguire questi passaggi:
 * Installare Docker sul proprio computer
 * Clonare il repository: git clone https://github.com/rosariocannavo/Demo-Sistemi-Centrali.git
 * Navigare nella directory demo1-docker
-* Creare l'immagine Docker eseguendo il comando docker build -t express-api-docker .
-* Eseguire il contenitore Docker con il comando docker run -p 3000:3000 express-api-docker
+* Creare l'immagine Docker eseguendo il comando `docker build -t express-api-docker .`
+* Eseguire il contenitore Docker con il comando `docker run -p 3000:3000 express-api-docker`
 * Aprire un browser e visitare http://localhost:3000 per vedere il server Express in esecuzione
 
 ## Demo 2 - Utilizzo di Docker Compose
@@ -29,7 +29,7 @@ Per eseguire la demo, seguire questi passaggi:
 * Installare Docker e Docker Compose sul proprio computer
 * Clonare il repository: git clone https://github.com/rosariocannavo/Demo-Sistemi-Centrali.git
 * Navigare nella directory demo2-docker-compose
-* Creare e avviare l'infrastruttura Docker con il comando docker-compose up -d
+* Creare e avviare l'infrastruttura Docker con il comando `docker-compose up -d`
 * Aprire un browser e visitare http://localhost:3000 per vedere il server Express in esecuzione
 
 ## Demo 3 - Utilizzo di Kubernetes
