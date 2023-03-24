@@ -4,12 +4,13 @@ Questo repository contiene una serie di demo che mostrano come utilizzare Docker
 ## Demo 1 - Utilizzo di Docker
 La prima demo mostra come utilizzare Docker per creare un'immagine di un server Express e quindi eseguirlo in un contenitore Docker. La demo è composta da:
 
-### Dockerfile - il file di definizione dell'immagine Docker
+* Dockerfile - il file di definizione dell'immagine Docker
 * server.js - il codice del server Express
 * package.json - il file di dipendenze di Node.js
+
 Per eseguire la demo, seguire questi passaggi:
 
-### Installare Docker sul proprio computer
+* Installare Docker sul proprio computer
 * Clonare il repository: git clone https://github.com/rosariocannavo/Demo-Sistemi-Centrali.git
 * Navigare nella directory demo1-docker
 * Creare l'immagine Docker eseguendo il comando docker build -t express-api-docker .
