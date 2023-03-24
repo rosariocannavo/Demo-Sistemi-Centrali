@@ -1,4 +1,4 @@
-# Progetto Demo con Docker, Docker Compose e Kubernetes
+# Orchestrazione e Monitoring di Cluster di Container
 Questo repository contiene una serie di demo che mostrano come utilizzare Docker, Docker Compose e Kubernetes per eseguire applicazioni in modo isolato, scalabile e riproducibile.
 
 ## Demo 1 - Utilizzo di Docker
