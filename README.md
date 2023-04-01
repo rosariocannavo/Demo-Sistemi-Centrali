@@ -20,6 +20,7 @@ Per eseguire la demo, seguire questi passaggi:
 ## Demo 2 - Utilizzo di Docker Compose
 La seconda demo mostra come utilizzare Docker Compose per creare un'infrastruttura composta da più contenitori Docker. In particolare, la demo crea un server Express e un'istanza di MongoDB e li connette tra loro. La demo è composta da:
 
+* Dockerfile - il dockerfile del server Express.js
 * docker-compose.yml - il file di definizione dell'infrastruttura Docker
 * index.js - il codice del server Express
 * package.json - il file di dipendenze di Node.js
