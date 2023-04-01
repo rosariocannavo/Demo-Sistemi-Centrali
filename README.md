@@ -33,11 +33,11 @@ Per eseguire la demo, seguire questi passaggi:
 * Aprire un browser e visitare http://localhost:3000 per vedere il server Express in esecuzione
 
 ## Demo 3 - Utilizzo di Kubernetes
-La terza demo mostra come utilizzare Kubernetes per creare un'infrastruttura complessa e altamente scalabile. In particolare, la demo crea un cluster Kubernetes composto da due nodi:
+La terza demo mostra un esempio di come utilizzare Kubernetes per creare un'infrastruttura complessa e altamente scalabile. In particolare, la demo crea un cluster Kubernetes composto da due nodi:
 * un nodo Kubernetes master
 * un nodi worker
 
-Il cluster esegue un'applicazione di messaggistica basata su una coda. L'applicazione è composta da un producer che scrivono messaggi su una coda e tre consumatore che legge i messaggi dalla coda. Il cluster è monitorato da un pod Prometheus che raccoglie metriche sull'utilizzo delle risorse dei nodi e dell'applicazione.
+Il cluster esegue un'applicazione di messaggistica basata su una coda. L'applicazione è composta da un producer che scrive messaggi su una coda e tre consumer che leggono i messaggi dalla coda. Il cluster è monitorato da un pod Prometheus che raccoglie metriche sull'utilizzo delle risorse dei nodi e dell'applicazione.
 
 Per eseguire la demo, seguire questi passaggi:
 * Installare Minikube sul proprio computer al link [Minikube](https://minikube.sigs.k8s.io/docs/start/)
